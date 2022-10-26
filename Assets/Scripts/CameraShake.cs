@@ -7,7 +7,7 @@ public class CameraShake : MonoBehaviour
     public bool BombShakeStatus = true;
     public IEnumerator Shake (float duration, float magnitude)
     {
-        transform.localPosition = new Vector3(0, 0, -10);
+        transform.localPosition = new Vector3(0.86f, 0, -10);
         Vector3 originalPos = transform.localPosition;
         float elapsed = 0.0f;
         while (elapsed < duration)
